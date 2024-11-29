@@ -100,6 +100,7 @@ Educativo y de Aprendizaje Personal
     ]
 
 14.  En proyecto_educativo/setting.py vamos a registrar la aplicación
+
     ```bash
     INSTALLED_APPS = [
     'django.contrib.admin',
@@ -110,6 +111,7 @@ Educativo y de Aprendizaje Personal
     'django.contrib.staticfiles',
     'principal',
     ]
+    
 15. Activamos el servidor
     ```bash
     python manage.py runserver
