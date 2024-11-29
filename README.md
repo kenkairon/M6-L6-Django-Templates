@@ -101,15 +101,14 @@ Educativo y de Aprendizaje Personal
 
 14.  En proyecto_educativo/setting.py vamos a registrar la aplicación
     ```bash
-    # Application definition
     INSTALLED_APPS = [
-        'django.contrib.admin',
-        'django.contrib.auth',
-        'django.contrib.contenttypes',
-        'django.contrib.sessions',
-        'django.contrib.messages',
-        'django.contrib.staticfiles',
-        'principal',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'principal',
     ]
 15. Activamos el servidor
     ```bash
